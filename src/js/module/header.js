@@ -5,6 +5,7 @@ define(["jquery"],function($){
 				this.src = $("#src");
 				this.searchContainaer = $("#srcxiala")
 				this.search();
+				this.dengru();
 			})
 			
 			
@@ -53,6 +54,51 @@ define(["jquery"],function($){
 				_this.searchContainaer.hide();
 			})
 		}
+		dengru() {
+			var _this = this;
+			this.huanying = $("#huanying");
+			this.tuichu = $("#tuichu");
+			this.dengluzhong = $("#dengluzhong");
+			this.yonghuming = $("#yonghuming");
+			this.yonghuming =$("#yonghuming");
+			var username = localStorage.getItem("username");
+//			console.log(username)
+			if (username) {
+                
+               _this.tuichu.css({
+   						"display": "block"
+					})
+               _this.dengluzhong.css({
+   						"display": "none"
+					})
+               _this.huanying.css({
+   						"display": "block"
+					})
+               _this.yonghuming.html(username);
+
+			}
+			_this.tuichu.on("click",function(){
+				if(confirm("确定退出？")){
+					_this.tuichu.css({
+   						"display": "none"
+					})
+               _this.dengluzhong.css({
+   						"display": "block"
+					})
+               _this.huanying.css({
+   						"display": "none"
+					})
+               localStorage.removeItem("username");
+				}
+				
+				
+			})
+			
+			
+			
+		}
+		
+		
 	}
-	new Header();
+	return new Header();
 })

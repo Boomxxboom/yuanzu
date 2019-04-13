@@ -1,0 +1,219 @@
+@import  "style";
+@import "header";
+@import "footer";
+
+.cars{
+    width: 1210px;
+    overflow: hidden;
+    margin: 0 auto; 
+    .carstop{
+        width: 1210px;
+        height: 40px;
+        font-size:14px ;
+        margin: 0 auto;
+        padding-top:14px ;
+        color: #000000;
+        a{
+            font-size:14px ;
+            color: #000000;
+        }
+    }
+.carsmian{
+    width: 1210px;
+    overflow: hidden;
+    margin: 0 auto; 
+    margin-bottom:20px ;
+    min-height: 400px;
+    .carmiannav{
+        width: 1210px;
+        height: 32px;
+          margin: 0 auto;
+        ul{
+            width: 1210px;
+            height: 32px;
+            background:#e6e4e5;
+            display: flex;
+            
+            li{ 
+                width: 25%;
+                height: 32px;
+                line-height: 32px;
+                color: #999999;
+                font-size:18px ;
+                text-align: center;
+                background: #e6e4e5;
+                
+            }
+            .ac{
+                color: white;
+                background:#c7023a;
+                border-radius:0  32px  32px 0 ;
+            }
+        }
+    }
+    .carnone{
+        display:none;
+        width: 420px;
+        height: 145px;
+        float: left;
+        margin-left: 380px;
+        margin-top: 105px;
+        img{float: left;}
+        .p1{
+            float: left;
+            font-size:17px;
+            margin-top: 30px;
+            margin-left: 10px;
+        }
+        .p2{
+            float: left;
+
+            font-size:17px;
+            margin-left: 10px;
+        }
+        a{
+            float: left;
+            width: 82px;
+            height: 32px;
+            background: #c7023a;
+            color: white;
+            text-align: center;
+            line-height: 32px;
+            margin-left:10px;
+            margin-top:10px;
+        }
+    }
+    .carshow{
+        margin-top:10px ;
+        ul{
+            width: 1210px;
+            height: 40px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            background:#e6e4e5;
+            align-items: center;
+            li{
+                font-weight:bold ;
+            }
+            
+        }
+        .carlist{
+            width: 1210px;
+            height: 155px;
+            background: white;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .box1{
+                margin-left: -108px;
+                img{float: left;}
+                b{  float: left;
+                    margin-top: 50px;
+                    margin-left: 10px;
+                }
+            }
+            .box2{
+                span{
+                    float: left;
+                    width: 24px;
+                    height: 24px;
+                    border: 1px solid #e6e4e5 ;
+                    line-height: 24px;
+                    text-align: center;
+                    background: #f0f0f0;
+                    cursor: pointer;
+                }
+                input{
+                    width: 30px;
+                    height: 24px;
+                    float: left;
+                    text-align: center;
+                }
+            }
+            .jg{
+                color: #c7023a;
+                font-weight: bolder;
+            }
+            .shanchu{
+                font-size:12px ;
+                span{
+                    float: left;
+                    height: 15px;
+                    width: 15px;
+                    border: 1px solid;
+                    border-radius:7px ;
+                    text-align: center;
+                    line-height: 15px;
+                    cursor: pointer;
+                }
+            }
+            
+            
+        }
+        .jisuan{
+            margin-right: 10px;
+            float: right;
+            color: #4b4b4b;
+            width: 350px;
+            height: 180px;
+            h4{ 
+                font-size:16px ;
+                width: 350px;
+                padding-bottom:10px ;
+                padding-top: 10px;
+                border-bottom:1px solid #e2e2e2 ;
+            }
+            .zongji{
+                font-size:13px ;
+                margin-top:10px ;
+                margin-bottom: 10px;
+                span{
+                    float: right
+                }
+            }
+            .jinezongji{
+                 font-size:13px ;
+                 border-bottom:1px solid #e2e2e2 ;
+                 padding-bottom: 10px;
+                 b{
+                    float: right;
+                    color: #c7023a; 
+                 }
+                
+            }
+            .jiagezongji{
+                font-size:13px ;
+                margin-top: 10px;
+                margin-bottom: 15px;
+            }
+            .jixu{
+                width: 80px;
+                height: 32px;
+                float: left;
+                margin-left:155px ;
+                color: white;
+                background:  #c7023a;
+                text-align: center;
+                line-height: 32px;
+            }
+            .jiesuan{width: 80px;
+                height: 32px;
+                float: right;
+                color: white;
+                background:  #c7023a;
+                text-align: center;
+                line-height: 32px;
+                
+            }
+        }
+        
+        
+    }
+    
+}
+
+
+
+}

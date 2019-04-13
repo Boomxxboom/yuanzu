@@ -1,1 +1,234 @@
+@import "style";
+@import "header";
+@import "footer";
+.details{
+    position: relative;
+    width: 1210px;
+    overflow: hidden;
+    margin: 0 auto;
+    .top{
+    width: 1210px;
+    height: 40px;
+    font-size:14px ;
+    margin: 0 auto;
+    padding-top:14px ;
+    color: #000000;
+    a{
+        font-size:14px ;
+        color: #000000;
+    }
+}
+.pingjia{
+    float: left;
+    width: 1210px;
+    height: 7725px;
+    background: white;
+    margin-bottom: 15px;
+    .pingjianav{
+        width: 1005px;
+        height: 30px;
+        background: #999999;
+        p{
+            width: 125px;
+            height: 30px;
+            font-size:16px ;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            float: left;
+            background: #b6ab8f;
+        }
+        b{
+           width: 125px;
+            height: 30px;
+            font-size:16px ;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            float: left; 
+        }
+    }
+}
+.detailsmian{
+    width: 1005px;
+    height: 590px;
+    background: white;
+    float: left;
+    margin-bottom: 20px;
+    .d-left{
+        width: 530px;
+        height: 590px;
+        float: left;
+        .view_bd{
+            width: 455px;
+            height: 455px;
+            margin-top:18px;
+            margin-left: 18px;
+            margin: 18px;
+            img{
+                width: 455px;
+                height: 455px;
+            }
+        }
+        .view-ul{
+            margin-left: 18px;
+            width: 455px;
+            display: flex;
+            justify-content: space-around;
+            li{
+                  float: left;
+                .s{
+                    width: 62px;
+                    height: 62px;
+                }
+                &:hover{
+                    border: 1px solid #66AFE9;
+                }
+            }
+        }
+    }
+    
+.d-right{
+    position: relative;
+    width: 440px;
+    height: 225px;
+    float: right;
+    margin-top:20px ;
+    .biaoti1{
+        font-size:16px ;
+        margin-bottom: 10px;
+    }
+    .biaoti2{
+        font-size:15px ;
+        color: #999999;
+    }
+    .youhui{
+        font-size:15px ;
+        color: #999999;
+         
+            
+    }
+    .qian{
+        font-size:20px ;
+        color: #e4004f;
+       
+    }
+    .shuliang{
+        font-size:15px ;
+        color: #999999;
+       
+        
+    }
+    input{
+        width: 48px;
+        height: 40px;
+        text-align: center;
+      
+    }
+    .jiajian{
+        
+        display: flex;
+        flex-flow: column;
+        position: absolute;
+        left:97px;
+        top: 81px;
+        span{
+            display: block;
+            height: 20px;
+            width: 18px;
+            line-height: 18px;
+            text-align: center;
+            border: 1px solid;
+            cursor: pointer;
+        }
+    }
+    .goumai{
+        position: absolute;
+        left:132px;
+        top:81px;
+        height: 40px;
+        width: 100px;
+        border: 1px solid #e4004f;
+        font-size:20px ;
+        color:#e4004f ;
+        background: #feedf3;
+        text-align: center;
+        line-height: 38px;
+        padding-left: 0px;
+    }
+    .gouwu{
+        position: absolute;
+        left:240px;
+        top:81px;
+        height: 40px;
+        width: 155px;
+        
+        font-size:20px ;
+        color:white;
+        background:#e4004f;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+    }
+    a{
+        color: black;
+        padding-left:20px ;
+        background:url(../img/xin.png) no-repeat left center ;
+       
+    }
+    img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .bianhao{
+        margin-bottom: 20px;
+    }
+    
+}   
+}
+.like{
+    width: 195px;
+    position: absolute;
+    top:15px;
+    right: 0;
+    p{
+        width: 195px;
+        height: 30px;
+        background: #e50150;
+        color: white;
+        line-height:30px ;
+        padding-left: 10px;    
+    }
+    ul{ width: 195px;
+        height: 1490px;
+        background:white ;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-around;
+        li{
+            width: 172px;
+            img{
+                width: 173px;
+                height: 173px;
+            }
+            span{
+                float: right;
+                font-size:12px ;
+                font-weight:bolder ;
+                color: #e50150;
+                
+            }
+            i{
+                float: left;
+                margin-top: 17px;
+                font-size:12px ;
+            }
+        }
+    }
+    
+}
 
+}

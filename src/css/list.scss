@@ -1,14 +1,18 @@
 @import  "style";
-
+@import "header";
+@import "footer";
 .listmian{
+    position: relative;
     width:1210px;
     margin: 0 auto ;
+    overflow:hidden;
     .fenlei{
-       
-    width: 890px;
+      float: left;
+    width: 1005px;
     background: white;
      margin-top:25px;
         margin-bottom:15px;
+         
     ul{
         
         li{
@@ -28,7 +32,8 @@
     }
 }
 .biao{
-    width: 890px;
+    float: left;
+    width: 1005px;
     .biaonav{
         display: flex;
           height: 35px;
@@ -66,8 +71,8 @@
         justify-content: space-between;
         align-items: center;
         background: white;
-        width: 890px;
-        height: 170px;
+        width: 1005px;
+        height: 195px;
         border-bottom: 1px solid #f0f0f0;
         .danjiatu{
             margin-left: 4px;
@@ -83,11 +88,14 @@
                 float: right;
             width: 115px;
             height: 32px;
-            color: white;
+            
             line-height: 32px;
             text-align: center;
             cursor: pointer;
             background: #e50150;
+            a{
+               color: white; 
+            }
         }
         h3{ float: left;
             font-size:20px ;
@@ -134,4 +142,46 @@
 
 }
 
+.like{
+    width: 195px;
+    position: absolute;
+    top:15px;
+    right: 0;
+    p{
+        width: 195px;
+        height: 30px;
+        background: #e50150;
+        color: white;
+        line-height:30px ;
+        padding-left: 10px;    
+    }
+    ul{ width: 195px;
+        height: 1490px;
+        background:white ;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-around;
+        li{
+            width: 172px;
+            img{
+                width: 173px;
+                height: 173px;
+            }
+            span{
+                float: right;
+                font-size:12px ;
+                font-weight:bolder ;
+                color: #e50150;
+                
+            }
+            i{
+                float: left;
+                margin-top: 17px;
+                font-size:12px ;
+            }
+        }
+    }
+    
+}
 

@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="../libs/bootstrap/css/bootstrap.min.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/detail.css"/>
-		<script src="../libs/jquery/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
-		<script src="../libs/jquery/require.js" type="text/javascript" charset="utf-8" data-main = "../js/detail.js"></script>
+		
 	</head>
 	<body>
 		<div id="header-container"></div>
@@ -16,45 +16,107 @@
 				<a href="/html/list.html" class="shop">元祖商城</a>>
 				<a href="detail.html" class="dtl">蛋黄酥礼盒</a>
 			</div>
-			<div class="detailslefe">
-				<div class="xiangqing">
-					<div class="d-left">
-                        <div class="view_bd">
-                            <img class="zoom-img" src="/img/xiangqing/28a518fedfb8e.jpg!wh400" data-zoom-image="/img/xiangqing/28a518fedfb8e.jpg"/>
-                        </div>
-                        <div class="view_thumbs" id="gal1">
-                            <ul class="view-ul">
-                                <li class="current">
-                                    <a href="#" data-image="/img/xiangqing/28a518fedfb8e.jpg!wh400" data-zoom-image="/img/xiangqing/28a518fedfb8e.jpg">
-                                    <img class="s" src="/img/xiangqing/28a518fedfb8e.jpg!wh70" />
-                                    <i>^</i>
-                                </li>
-                                <li>
-                                    <a href="#" data-image="/img/xiangqing/179785e7eb710.jpg!wh400" data-zoom-image="/img/xiangqing/179785e7eb710.jpg">
-                                    <img class="s" src="/img/xiangqing/179785e7eb710.jpg!wh70" />
-                                    <i>^</i>
-                                </li>
-                                <li>
-                                    <a href="#" data-image="/img/xiangqing/c3923d89f361.jpg!wh400" data-zoom-image="/img/xiangqing/c3923d89f361.jpg">
-                                    <img class="s" src="/img/xiangqing/c3923d89f361.jpg!wh70" />
-                                    <i>^</i>
-                                </li>
-                                <li>
-                                    <a href="#" data-image="/img/xiangqing/c3923d89f361.jpg!wh400" data-zoom-image="/img/xiangqing/c3923d89f361.jpg">
-                                    <img class="s" src="/img/xiangqing/c3923d89f361.jpg!wh70" />
-                                    <i>^</i>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-				</div>
-				<div class="tu">
+			
+			<div class="detailsmian">
+				
+			
+						<div class="d-left">
+							<div class="view_bd">
+								<img class="zoomImg" src="../img/100001308_L.jpg" data-zoom-image="../img/100001308_L.jpg" />
+							</div>
+							<div class="view_thumbs" id="gal">
+								<ul class="view-ul">
+									<li class="current">
+										<a href="#" data-image="../img/100001308_L.jpg" data-zoom-image="../img/100001308_L.jpg">
+											<img class="s" src="../img/100001308_L.jpg" />
+											
+									</li>
+									<li>
+										<a href="#" data-image="../img/100001308_L1.jpg" data-zoom-image="../img/100001308_L1.jpg">
+											<img class="s" src="../img/100001308_L1.jpg" />
+											
+									</li>
+									<li>
+										<a href="#" data-image="../img/100001308_L2.jpg" data-zoom-image="../img/100001308_L2.jpg">
+											<img class="s" src="../img/100001308_L2.jpg" />
+											
+									</li>
+									<li>
+										<a href="#" data-image="../img/100001308_L3.jpg" data-zoom-image="../img/100001308_L3.jpg">
+											<img class="s" src="../img/100001308_L3.jpg" />
+											
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="d-right" id="d-right">
+							<script type="text/html" id="detail-s">
+								<p class="biaoti1">{{title}}</p>
+							<p class="biaoti2">{{title1}}</p>
+							<span class="youhui"> 优惠价：</span><b class="qian">￥{{price}}</b><br />
+							<span class="shuliang">数量 ：</span><input type="text"  id="num" value="1"  />
+							<div class="jiajian">
+								<span class="jia" id="jia">+</span>
+								<span class="jian"id="jian">-</span>
+							</div>
+							<a href="../html/car.html" class="goumai" >立即购买</a>
+							<p class="gouwu" id="buy">加购物车</p>
+							<img src="../img/tu1.png"/>
+							<p class="bianhao">商品编号：<span>{{num}}</span></p>
+							<a href="javascript：；">收藏</a>
+							</script>
+							
+						</div>
 					
-				</div>	
-			</div>
-			<div class="detailsright">
+				
 				
 			</div>
+			<div class="pingjia">
+				<div class="pingjianav">
+					<p >商品介绍</p>
+					<b >商品评价</b>
+				</div>
+				<div ><img src="../img/datu.png"/></div>
+			</div>
+			
+			
+			
+			
+			<div class="like">
+				<p class="cai">猜你喜欢</p>
+				<ul>
+					<li>
+						<a href="/html/detail.html"><img src="../img/caini.png"/></a>
+						<span>￥218.00</span>
+						<i>金蜜蜂鲜奶蛋糕</i>
+					</li>
+					<li>
+						<a href="/html/detail.html"><img src="../img/caini.png"/></a>
+						<span>￥218.00</span>
+						<i>金蜜蜂鲜奶蛋糕</i>
+					</li>
+					<li>
+						<a href="/html/detail.html"><img src="../img/caini.png"/></a>
+						<span>￥218.00</span>
+						<i>金蜜蜂鲜奶蛋糕</i>
+					</li>
+					<li>
+						<a href="/html/detail.html"><img src="../img/caini.png"/></a>
+						<span>￥218.00</span>
+						<i>金蜜蜂鲜奶蛋糕</i>
+					</li>
+					<li>
+						<a href="/html/detail.html"><img src="../img/caini.png"/></a>
+						<span>￥218.00</span>
+						<i>金蜜蜂鲜奶蛋糕</i>
+					</li>
+					<li>
+						<a href="/html/detail.html"><img src="../img/caini.png"/></a>
+						<span>￥218.00</span>
+						<i>金蜜蜂鲜奶蛋糕</i>
+					</li>
+				</ul>
+			</div>		
 		  	
 			
 			
@@ -65,8 +127,9 @@
 		
 		
 		
-		
+		<div id="right-container"></div>
 		<div id="footer-container"></div>
+		<script src="../libs/jquery/require.js" type="text/javascript" charset="utf-8" data-main = "/js/detail.js"></script>
 		
 		
 	</body>

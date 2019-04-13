@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/list.css"/>
 		<script src="../libs/jquery/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../libs/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="../libs/jquery/require.js" type="text/javascript" charset="utf-8" data-main = "/js/list.js"></script>
+		
 	</head>
 	<body>
 		<div id="header-container"></div>
@@ -68,17 +68,13 @@
 						</div>
 						<div class="you">
 							<h3>￥{{item.price}}</h3>
-						    <p>立即购买</p>
+						    <p><a href="/html/detail.html?id={{item.id}}">立即购买</a></p>
 						</div>
 						
 					</div>
 					{{/each}}
 				</script>
 				</div>
-				
-				
-				
-				
 				<nav aria-label="Page navigation"  class="fenye">
 						  <ul class="pagination">
 						    <li>
@@ -100,7 +96,41 @@
 					</nav>
 				
 			</div>
-					
+			<div class="like">
+				<p class="cai">猜你喜欢</p>
+				<ul>
+					<li>
+						<a href="/html/detail.html"><img src="../img/caini.png"/></a>
+						<span>￥218.00</span>
+						<i>金蜜蜂鲜奶蛋糕</i>
+					</li>
+					<li>
+						<a href="/html/detail.html"><img src="../img/caini.png"/></a>
+						<span>￥218.00</span>
+						<i>金蜜蜂鲜奶蛋糕</i>
+					</li>
+					<li>
+						<a href="/html/detail.html"><img src="../img/caini.png"/></a>
+						<span>￥218.00</span>
+						<i>金蜜蜂鲜奶蛋糕</i>
+					</li>
+					<li>
+						<a href="/html/detail.html"><img src="../img/caini.png"/></a>
+						<span>￥218.00</span>
+						<i>金蜜蜂鲜奶蛋糕</i>
+					</li>
+					<li>
+						<a href="/html/detail.html"><img src="../img/caini.png"/></a>
+						<span>￥218.00</span>
+						<i>金蜜蜂鲜奶蛋糕</i>
+					</li>
+					<li>
+						<a href="/html/detail.html"><img src="../img/caini.png"/></a>
+						<span>￥218.00</span>
+						<i>金蜜蜂鲜奶蛋糕</i>
+					</li>
+				</ul>
+			</div>		
 			
 		</div>
 		
@@ -108,7 +138,8 @@
 			
 		
 			
-		
+		<div id="right-container"></div>
 		<div id="footer-container">	</div>
+		<script src="../libs/jquery/require.js" type="text/javascript" charset="utf-8" data-main = "/js/list.js"></script>
 	</body>
 </html>

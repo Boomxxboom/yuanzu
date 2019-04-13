@@ -1,0 +1,44 @@
+@import "style";
+.rightgwc{
+    position: fixed;
+    top: 240px;
+    right: 0px;
+    width: 30px;
+    height: 255px;
+    background: #30343d;
+    
+}
+.rightgwcul{
+   li{
+       height: 37px;
+       border-bottom:1px solid ;
+       text-align: center;
+       line-height: 37px;
+       color:#b0b1b3 ;
+       font-size:14px ;
+       font-weight:bold ;
+       cursor: pointer;
+       img{
+           margin-top:5px ;
+       }
+   }
+   .gwc{
+       height: 144px;
+       a{
+         font-size:14px ;
+       font-weight:bold ; 
+        color:#b0b1b3 ; 
+       }
+       span{
+           display: inline-block;
+           width: 20px;
+           height: 20px;
+           border-radius:10px ;
+           line-height: 20px;
+           background: red;
+       }&:hover{
+           background:#c7023a ;
+       }
+       
+   }
+}

@@ -70,7 +70,7 @@ $acolor:#e9004f;
     float: left;
 }
 .head ul:nth-child(3){
-    width: 370px;
+    
     justify-content: space-around;
     float: right;
     display: flex;   
@@ -167,7 +167,7 @@ $acolor:#e9004f;
 }
 
 .hot{
-    width: 170px;
+    width: 175px;
     height: 20px;
     float: left;
     margin-top:5px ;
@@ -296,3 +296,15 @@ nav .down ul li a:hover{
     left: 3px;
     cursor: pointer;
 }
+
+.huanying{
+    display: none;
+}
+.tuichu{
+    display: none;
+}
+
+
+
+
+

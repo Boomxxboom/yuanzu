@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+		<link rel="stylesheet" type="text/css" href="../css/car.css"/>
+	<body>
+		
+		<div id="header-container"></div>
+		
+		<div class="cars">
+			<div class="carstop">
+				<a href="/index.html" class="zhuye">主页</a>>
+				<a href="/html/car.html" class="shop">购物车</a>
+			</div>
+			
+			<div class="carsmian">
+				<div class="carmiannav">
+					<ul>
+						<li class="ac">1.购物车</li>
+						<li>2.填写订单信息</li>
+						<li>3.提交成功</li>
+						<li>4.在线支付</li>
+					</ul>										
+				</div>
+				<div class="carnone" id="carnone">
+						<img src="../img/car.png"/>
+						<p class="p1">您的购物车还是空的</p>
+						<p class="p2">返回首页添加喜欢的产品吧！</p>
+						<a href="../index.html">返回首页</a>
+				</div>
+				<div class="carshow" id="carshow">
+					
+					
+					<div id="carshow-c"></div>
+					<script  type="text/html" charset="utf-8" id="carttemplate">
+						{{each cart prod}}
+						<div data-id="{{prod.id}}">
+							<ul>
+							<li>商品</li>
+							<li>单价</li>
+							<li>数量</li>
+							<li>操作</li>														
+						</ul>
+						<div class="carlist">
+							<div class="box1">
+							<img src="{{prod.img[0]}}"/>
+							<b>{{prod.title}}</b>	
+							</div>
+							<p class="jg">￥{{(prod.price).toFixed(2)}}</p>
+							<div class="box2">
+								<span id="up" class="up">+</span>
+								<input type="text" class="numser"  id="" value="{{prod.numbers}}" />
+								<span id="down" class="down">-</span>
+							</div>
+							<p class="shanchu" id="shanchu"><span>X</span>移除</p>
+						</div>
+						</div>
+						
+						{{/each}}
+					</script>
+					
+					
+					
+					
+					<div class="jisuan" id="#jisuan">
+						<h4>订单合计</h4>
+						<p class="zongji">商品数量总计：<span id="zongshunum">1</span></p>
+						<p class="jinezongji">商品金额总计（不含运费）：<b id="zongjia">￥220.00</b></p>
+						<p class="jiagezongji">总计：<span id="zongjia1">￥220.00</span></p>
+						<a href="../html/list.html" class="jixu">继续购物</a>
+						<a href="javascript" class="jiesuan">结算</a>
+					</div>
+				</div>	
+				
+					
+					
+				
+			</div>			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id="right-container"></div>
+		<div id="footer-container">	</div>
+		<script src="../libs/jquery/require.js" type="text/javascript" charset="utf-8" data-main = "/js/cart.js"></script>
+	</body>
+</html>
